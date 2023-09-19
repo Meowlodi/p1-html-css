@@ -1,40 +1,65 @@
-h1{
-font-size: 24px; 
-color: blue; 
-font-weight: bold; 
-font-style: italic;
+h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
 }
 
-h2{
-font-size: 20px; 
-font-weight: bold; 
-color: #0000ff 
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0000ff
 }
 
-h3{
-font-size: 16px; 
-color: teal; 
-font-weight: bold;
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
 }
 
-p{
-color: #4D4D4D;
-}
-.paragraaf{
-font-weight: bold
+p {
+    color: #4D4D4D;
 }
 
-a{
-color: #8A2BE2; 
-text-decoration: none;
+.paragraaf {
+    color: white;
+    font-weight: bold
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
 
 }
 
-header{
+header {
     width: 100%;
-    min-height: 33vh;
-    background-color: #333;
+    min-height: 35vh;
+    background-color: burlywood;
+    background-image: url(img/wp8015627.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+
 }
-article{
-border-style: ;
+
+article {
+    border: 3px solid black;
+    border-radius: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+    border-left-width: thick;
+
+}
+
+html {
+    font-size: 62, 5;
+}
+
+img {
+    width: 50vw;
+    height: 100vh;
 }
