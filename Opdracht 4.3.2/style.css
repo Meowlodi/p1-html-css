@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Goldman", cursive;
 }
 html {
   font-size: 62.5%;
 }
 body {
+  min-height: 80vh;
   font-family: "Goldman", cursive;
+  font-style:
+  
 }
 
 nav {
@@ -37,3 +43,104 @@ nav a {
 nav img {
   width: 5vw;
 }
+footer{
+  background-color: #00a8c7;
+  min-height: 10vh;
+  text-align: center;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  
+
+}
+.index{
+  background-image: url('img/background.jpeg'); 
+  background-position: center
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+.javascript{
+  background-color: black;
+}
+.sql{
+  background-color: black;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  color: white;
+}
+.help{
+  color: white;
+  text-align: center;
+}
+.me{
+  color: white;
+}
+form{
+  border: 0.1rem solid black;
+  padding: 2rem;
+  text-align: center;
+  font-weight: 550;
+  font-size: large;
+}
+label{
+  display: block;
+    margin-bottom: 0.;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 2rem;
+    margin-bottom: 10px;
+    border: 0.4rem solid #ccc;
+    border-radius: 0.5rem;
+
+}
+button{
+  font-size: large;
+}
+p{
+  color: white;
+}
+.pp{
+  color: black;
+}
+.titelphp{
+  color: black;
+}
+.watisphp{
+  color: black;
+}
+.css{
+  color: black;
+}
+.css1{
+  color: black;
+}
+.css2{
+  color: black;
+}
+h1{
+  text-align: center;
+}
+
+img[alt="foto HTML/CSS"] {
+width: 30rem;
+}
+img[alt="Javascript"]{
+  width: 30rem;
+}
+img[alt="foto HTML/CSS"]
+{
+
+}
+img[alt="php"]{
+
+width: 30rem;
+}
+
