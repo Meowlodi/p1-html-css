@@ -13,7 +13,6 @@ body {
   min-height: 80vh;
   font-family: "Goldman", cursive;
   font-style:
-  
 }
 
 nav {
@@ -56,9 +55,8 @@ footer{
 }
 .index{
   background-image: url('img/background.jpeg'); 
-  background-position: center
+  background-position: center;
   background-repeat: no-repeat;
-  
   background-size: cover;
 }
 .javascript{
@@ -107,22 +105,9 @@ button{
 p{
   color: white;
 }
-.pp{
-  color: black;
-}
-.titelphp{
-  color: black;
-}
-.watisphp{
-  color: black;
-}
-.css{
-  color: black;
-}
-.css1{
-  color: black;
-}
-.css2{
+
+
+.font_color {
   color: black;
 }
 h1{
