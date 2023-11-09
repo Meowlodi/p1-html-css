@@ -1,9 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.flex-container{
+
+nav {
+    color: white;
     display: flex;
-    
+    margin: auto;
+    padding: 1rem;
+    background-color: purple;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.logos {
+width: 30%;
+display: flex;
+justify-content: flex-start;
+}
+
+.middle {
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+}
+
+.login {
+width: 30%;
+display: flex;
+justify-content: flex-end;
+
 }
